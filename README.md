@@ -10,7 +10,7 @@ For this study, we are interested in the idea that devices can manipulate data t
 
 Overall, we want to use reinforcement learning to create an algorithm that can identify which devices are likely to be malicious, so that we can avoid them when transmitting data through the network. 
 
-The image below shows a sample partial mesh network in the simulation environment. Initially, we do not know which nodes (if any) are corrupted. In order to figure this out, we simulate sending packets of data from the source to the destination on different paths. When the data arrives at the destination, we see if it is corrupted and reward/punish our RL agent accordingly. Over many training iterations, the algorithm learns which paths to take and which to avoid, allowingus to form a relatively clear picture of which nodes are corrupted in the network.
+The image below shows a sample partial mesh network in the simulation environment. Initially, we do not know which nodes (if any) are corrupted. In order to figure this out, we simulate sending packets of data from the source to the destination on different paths. When the data arrives at the destination, we see if it is corrupted and reward/punish our RL agent accordingly. Over many training iterations, the algorithm learns which paths to take and which to avoid, allowing us to form a relatively clear picture of which nodes are corrupted in the network.
 
 ![Network Image](/src/env/network_example.PNG)
 
