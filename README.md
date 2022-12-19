@@ -12,7 +12,7 @@ Overall, we want to use reinforcement learning to create an algorithm that can i
 
 The image below shows a sample partial mesh network in the simulation environment. 
 
-![Network Image](/src/env/network_example.png)
+![Network Image](/src/env/network_example.PNG)
 
 Guide to navigating the repository:
 
