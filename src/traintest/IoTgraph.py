@@ -22,7 +22,7 @@ class IoTgraph(gym.Env):
         self.graph.add_edge(chosen_nonedge[0], chosen_nonedge[1])
        
 
-    def is_corrupted(self, path, verbose=True):
+    def is_corrupted(self, path, verbose=False):
         """Determine if a path is corrupted 
         based on the attack probabilities of the nodes that make it up"""
         for node in path:
